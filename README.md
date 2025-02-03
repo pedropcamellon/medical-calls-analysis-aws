@@ -1,0 +1,3 @@
+# Medical Calls Analysis in AWS
+
+This is an event-driven medical call analysis system using AWS services. When patient call recordings are uploaded to an S3 bucket, it automatically triggers a Lambda function that initiates a transcription job. Once the transcript is generated, it is stored in S3, which triggers another Lambda function that uses Amazon Bedrock to summarize the call content. By leveraging Amazon Bedrock as a managed LLM solution, we avoid the complexity of handling LLM deployment and availability. The system uses serverless architecture throughout to efficiently process audio files and generate insights from medical conversations.
