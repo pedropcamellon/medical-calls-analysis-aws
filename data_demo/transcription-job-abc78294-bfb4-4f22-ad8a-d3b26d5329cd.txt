@@ -1,0 +1,8 @@
+
+spk_0: Good morning, Dr Hayes's office. Tarn speaking. Hi, 
+spk_1: good morning. This is Ernesto Sanchez. The doctor told me I need to come in today for my heart, but I forgot to make an appointment and I don't have it right. Anyway. 
+spk_0: Ok, Mr Sanchez, what is your date of birth? 
+spk_1: 03 2576. And when were you 
+spk_0: last seen last 
+spk_1: week in the hospital? 
+spk_0: Can you hold for? 
