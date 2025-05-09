@@ -1,16 +1,7 @@
 [project]
 name = "medical-calls-analysis-aws"
 version = "0.1.0"
-description = ""
-authors = [
-    {name = "Pedro P. Camellon",email = "pedropcamellon@gmail.com"}
-]
+description = "Medical Calls Analysis in AWS"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = [
-]
-
-
-[build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
-build-backend = "poetry.core.masonry.api"
+dependencies = ["boto3>=1.38.3", "ipykernel>=6.29.5", "streamlit>=1.44.1"]
