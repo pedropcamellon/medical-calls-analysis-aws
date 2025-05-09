@@ -1,1 +1,24 @@
-pedro_accessKeys.csv
+# Python
+__pycache__/
+
+# Virtual Environment
+.venv
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraformrc
+terraform.rc
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+
+# AWS
+*.pem
+*accessKeys.csv
+.aws/
+
+# Project specific
+lambda_*.zip
+# /data_demo/
