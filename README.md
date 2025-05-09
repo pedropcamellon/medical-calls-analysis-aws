@@ -10,6 +10,32 @@ To run this application, you need to install the required dependencies. You can 
 uv sync
 ```
 
+## Deploying to AWS
+
+To deploy this application to AWS, follow these steps:
+
+1. Zip the contents of the `lambda_summarize` and `lambda_transcribe` directories using the following commands:
+
+    ```bash
+    zip -r lambda_summarize.zip lambda_summarize
+    zip -r lambda_transcribe.zip lambda_transcribe
+    ```
+
+2. Upload the zip files to an S3 bucket.
+
+3. Create an AWS Lambda function for each zip file.
+
+4. Configure the Lambda functions to use the uploaded zip files.
+
+## Deploying to AWS using Terraform
+
+After creating the zip files, run the following commands from the `infrastructure` directory:
+
+```bash
+terraform init
+terraform apply
+```
+
 ## Streamlit Audio Uploader
 
 An Streamlit application allows users to upload audio files for processing. The application provides a simple interface for users to interact with and manage their audio files.
